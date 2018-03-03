@@ -1,0 +1,46 @@
+{
+    "eqeq": {
+        "prefix": "equivalent",
+        "body": [
+            "== "
+        ],
+        "description": "Voice-friendly =="
+    },
+    "noteq": {
+        "prefix": "different",
+        "body": [
+            "~= "
+        ],
+        "description": "Voice-friendly ~="
+    },
+    "nothing": {
+        "prefix": "nothing",
+        "body": [
+            "nil"
+        ],
+        "description": "Voice-friendly nil value"
+    },
+    "done": {
+        "prefix": "done",
+        "body": [
+            "end"
+        ],
+        "description": "Voice-friendly 'end'"
+    },
+    "Local": {
+        "prefix": "variable",
+        "body": [
+            "local $1 = $2"
+        ],
+        "description": "Create a new local variable"
+    },
+    "function": {
+        "prefix": "create function",
+        "body": [
+            "function$1($2)",
+            "$3",
+            "end"
+        ],
+        "description": "Create a new function"
+    }
+}

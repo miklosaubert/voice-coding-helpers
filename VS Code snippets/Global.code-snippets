@@ -1,0 +1,114 @@
+{
+    "eq": {
+        "prefix": "eq",
+        "body": [
+            "= "
+        ],
+        "description": "Voice-friendly equals sign"
+    },
+    "pipes": {
+        "prefix": "pipes",
+        "body": [
+            "|| "
+        ],
+        "description": "Voice-friendly pipes"
+    },
+    "dollars zero": {
+        "prefix": "dollars zero",
+        "body": [
+            "\\$0"
+        ],
+        "description": "Voice-friendly $0"
+    },
+    "dollars one": {
+        "prefix": "dollars one",
+        "body": [
+            "\\$1"
+        ],
+        "description": "Voice-friendly $1"
+    },
+    "dollars two": {
+        "prefix": "dollars two",
+        "body": [
+            "\\$2"
+        ],
+        "description": "Voice-friendly $2"
+    },
+    "dollars three": {
+        "prefix": "dollars three",
+        "body": [
+            "\\$3"
+        ],
+        "description": "Voice-friendly $3"
+    },
+    "squiggles": {
+        "prefix": "squiggles",
+        "body": [
+            "{ $1 }"
+        ],
+        "description": "Voice-friendly curly braces"
+    },
+    "squares": {
+        "prefix": "squares",
+        "body": [
+            "[$1]"
+        ],
+        "description": "Voice-friendly square brackets"
+    },
+    "brackets": {
+        "prefix": "brackets",
+        "body": [
+            "($1)"
+        ],
+        "description": "Voice-friendly brackets"
+    },
+    "singles": {
+        "prefix": "singles",
+        "body": [
+            "'$1'"
+        ],
+        "description": "Voice-friendly single quotes"
+    },
+    "doubles": {
+        "prefix": "doubles",
+        "body": [
+            "\"$1\""
+        ],
+        "description": "Voice-friendly double quotes"
+    },
+    "backticks": {
+        "prefix": "backticks",
+        "body": [
+            "`$1`"
+        ],
+        "description": "Voice-friendly back ticks"
+    },
+    "angles": {
+        "prefix": "angles",
+        "body": [
+            "<$1>"
+        ],
+        "description": "Voice-friendly angle brackets"
+    },
+    "elvis": {
+        "prefix": "elvis",
+        "body": [
+            "$1 ? $2 : $3"
+        ],
+        "description": "Voice-friendly Elvis operator"
+    },
+    "superior": {
+        "prefix": "superior",
+        "body": [
+            ">= "
+        ],
+        "description": "Voice-friendly >="
+    },
+    "inferior": {
+        "prefix": "inferior",
+        "body": [
+            "<= "
+        ],
+        "description": "Voice-friendly <="
+    },
+}

@@ -1,0 +1,65 @@
+{
+    "eqeqeq": {
+        "prefix": "equivalent",
+        "body": [
+            "=== "
+        ],
+        "description": "Voice-friendly ==="
+    },
+    "noteqeq": {
+        "prefix": "different",
+        "body": [
+            "!== "
+        ],
+        "description": "Voice-friendly !=="
+    },
+    "nothing": {
+        "prefix": "nothing",
+        "body": [
+            "null"
+        ],
+        "description": "Voice-friendly null value"
+    },
+    "template": {
+        "prefix": "template",
+        "body": [
+            "`$1${$2}$3`"
+        ],
+        "description": "Voice-friendly template string"
+    },
+    "requires": {
+        "prefix": "requires",
+        "body": [
+            "require('$1');"
+        ],
+        "description": "Voice-friendly require()"
+    },
+    "Constant": {
+        "prefix": "constant",
+        "body": [
+            "const $1 = $2;"
+        ],
+        "description": "Create a new constant"
+    },
+    "Arrow function": {
+        "prefix": "missile",
+        "body": [
+            "($1) => {$2}"
+        ],
+        "description": "Voice-friendly arrow"
+    },
+    "Spit": {
+        "prefix": "spit",
+        "body": [
+            "console.log($1);"
+        ],
+        "description": "Log variable to console"
+    },
+    "Say": {
+        "prefix": "say",
+        "body": [
+            "console.log('$1');"
+        ],
+        "description": "Log text to console"
+    }
+}
