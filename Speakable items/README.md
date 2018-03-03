@@ -1,0 +1,5 @@
+## Speakable items
+
+This folder is a collection of Automator apps that do "simple" things such as pressing a single key a number of times, or performing a keyboard shortcut. This allows for the creation of more powerful dictation commands (or speakable items as they are sometimes called), commands that can perform keyboard actions that would otherwise be impossible to capture with the System preferences UI. Examples of such "impossible" keyboard actions include pressing the escape key, pressing the delete key multiple times, or any shortcut that involves the tab key.
+
+The canonical place to store them is in your speakable items folder at `~/Library/Speech/Speakable Items`. To be used as dictation commands, each of these apps must be allowed to control the computer by adding them to the list in  System Preferences > Security & Privacy > Privacy > Accessibility.
